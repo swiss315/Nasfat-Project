@@ -116,7 +116,7 @@ class Signup extends React.Component {
                             <div className="text-danger">{this.state.errors.confirm_password}</div>
                             <br />
                             <div className="signupbutton">
-                                <Link to="/" className="float-left"><div >Back</div></Link>
+                                < Link to="/" className="float-left"><div >Back</div></Link>
                                 <button className="float-right signupnext" type="submit" value="Submit" to="/dashboard"><Link to="/dashboard" className="text-light">Next</Link></button>
                             </div>
                         </form>
